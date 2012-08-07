@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    
+     >
+     
+ <AbsoluteLayout 
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green"
+    android:orientation="horizontal">
+        <TextView
+        android:id="@+id/tv"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_x="35dip"
+        android:layout_y="160dip"
+        />
+
+
+    <Button
+        android:id="@+id/bprofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profit"
+        android:layout_x="41dip"
+        android:layout_y="300dip"
+        android:background = "@color/yellow"
+        />
+     <Button
+        android:id="@+id/bunemploy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unemployment Rate"
+        android:layout_x="41dip"
+        android:layout_y="350dip"
+        android:background = "@color/yellow"
+        />
+      <Button
+        android:id="@+id/bPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage Change"
+        android:layout_x="41dip"
+        android:layout_y="400dip"
+        android:background = "@color/yellow"
+        />
+      <Button
+        android:id="@+id/bgdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GDP"
+        android:layout_x="41dip"
+        android:layout_y="450dip"
+        android:background = "@color/yellow"
+        />
+      <Button
+        android:id="@+id/bpercapia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Per Capia"
+        android:layout_x="41dip"
+        android:layout_y="500dip"
+        android:background = "@color/yellow"
+        />
+      <Button
+        android:id="@+id/bpercentincrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percent Increase CPI"
+        android:layout_x="41dip"
+        android:layout_y="550dip"
+        android:background = "@color/yellow"
+        />
+     
+      <Button
+        android:id="@+id/bEreserves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excess Reserves"
+        android:layout_x="41dip"
+        android:layout_y="600dip"
+        android:background = "@color/yellow"
+        android:onClick="onClick"
+        />
+     
+      <Button
+        android:id="@+id/bIRates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrest Rates"
+        android:layout_x="41dip"
+        android:layout_y="650dip"
+        android:background = "@color/yellow"
+        android:onClick="onClick"
+        />
+      <Button
+        android:id="@+id/baFixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Fixed Cost"
+        android:layout_x="41dip"
+        android:layout_y="700dip"
+        android:background = "@color/yellow"
+        android:onClick="onClick"
+        />
+      <Button
+        android:id="@+id/baVariable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Variable Cost"
+        android:layout_x="41dip"
+        android:layout_y="750dip"
+        android:background = "@color/yellow"
+        android:onClick="onClick"
+        />
+      <Button
+        android:id="@+id/baTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Total Cost"
+        android:layout_x="41dip"
+        android:layout_y="800dip"
+        android:background = "@color/yellow"
+        android:onClick="onClick"
+        />
+      <Button
+        android:id="@+id/bRwages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real Wages"
+        android:layout_x="41dip"
+        android:layout_y="850dip"
+        android:background = "@color/yellow"
+        android:onClick="onClick"
+        />
+    <EditText 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:id="@+id/et1"
+        android:layout_x="35dip" 
+        android:layout_y="62dip"
+        
+        />
+    
+    <EditText 
+        android:layout_width="wrap_content" 
+        android:layout_height="match_parent"
+        android:hint="Enter Number"
+        android:id="@+id/et2"
+        android:layout_x="35dip" 
+        android:layout_y="120dip"
+        />
+    
+    </AbsoluteLayout>
+
+</ScrollView>
